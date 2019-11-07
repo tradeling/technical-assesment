@@ -46,4 +46,5 @@ Coding Challenges
 - [Frontend - Typescript](./backend-typescript/readme.md)
 - [FullStack - Typescript/Javascript](./fullstack-javascript/readme.md)
 - [DevOps coding task](https://github.com/tradeling/coding-task-devops)
+- [Data coding task](./data/readme.md)
 - [QA Automation](./qa-automation/readme.md)
