@@ -20,6 +20,7 @@ Your task is to write some end-to-end tests with [Cypress](https://www.cypress.i
 
 1. Write a first end-to-end test that
    1. Starts on the [landing page](https://www.binance.com/en)
+   1. Click the link [view more market](https://www.binance.com/en/markets)
    1. Clicks the ETH/BTC button leading to [Pair trading view](https://www.binance.com/en/trade/ETH_BTC)
    1. Verifies that all important information is loaded, e.g. trading chart, limit, market, stop limit input boxes, etc. (leaving this purposefully open to see what you think makes sense to test)
    
