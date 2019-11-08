@@ -6,6 +6,8 @@
   
 Readme
 ------
+> We prefer well-thought-out solutions over the quick-and-dirty kind. So take your time, if you need it. A rushed job is usually matched by a swift rejection.
+
 Regardless of whether it's your own code or our coding challenge, write your README as if it was for a production service. Include the following items:
 
 * Description of the problem and solution.
