@@ -2,19 +2,22 @@
 
 ## The Goal
 
-Your task is to write some end-to-end tests with [Cypress](https://www.cypress.io) to demonstrate your test automation abilities.
+Your task is to write some end-to-end tests to demonstrate your test automation abilities, choice one of the below tools.
+ - [Cypress](https://www.cypress.io) 
+ - [Puppeteer](https://github.com/puppeteer/puppeteer)
+ - [Nightwatchjs](https://nightwatchjs.org/)
+ 
 
-## What you'll need
+## The website to test
 
-1. The [Cypress Docs](https://docs.cypress.io)
 1. The platform: [binance trading platform](https://www.binance.com/en)
 
 ## The Process
 
 1. Start a new private github repository.
-1. Initiate new Cypress project environment
+1. Initiate new project environment
 1. Write some end-to-end tests fulfilling the [Acceptance Criteria](#acceptance-criteria) below
-1. Push your code in Github. And give the access to following users: [Meabed](https://github.com/meabed)
+1. Push your code in Github **Private Repository**. And give the access to following users: [Meabed](https://github.com/meabed)
 
 ## Acceptance Criteria
 
