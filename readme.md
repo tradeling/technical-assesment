@@ -1,9 +1,9 @@
 <p align="center">
 <a href="https://tradeling.com"><img src="https://i.ibb.co/ZzDxjFC/tl.png" alt="Tradeling" width="250"/></a>
 </p>
-  
+
 <h1 align="center">B2B E-Commerce Redefined 💥🔥🚀</h1>
-  
+
 Readme
 ------
 > We prefer well-thought-out solutions over the quick-and-dirty kind. So take your time, if you need it. A rushed job is usually matched by a swift rejection.
@@ -12,7 +12,7 @@ Regardless of whether it's your own code or our coding challenge, write your REA
 
 * Description of the problem and solution.
 * Whether the solution focuses on back-end, front-end or if it's full stack.
-* Reasoning behind your technical choices, including architectural. 
+* Reasoning behind your technical choices, including architectural.
 * Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
 * Link to other code you're particularly proud of.
 * Link to your resume or public profile.
@@ -39,13 +39,13 @@ The aspects of your code we will assess include:
 
 Bonus point (those items are optional):
 
-* **Scalability**: will technical choices scale well? If not, is there a discussion of those choices in the README? 
+* **Scalability**: will technical choices scale well? If not, is there a discussion of those choices in the README?
 * **Production-readiness**: does the code include monitoring? logging? proper error handling?
 
 Coding Challenges
 ----------------
 - [Backend - Typescript](./backend-typescript/readme.md)
-- [Frontend - Typescript](./backend-typescript/readme.md)
+- [Frontend - Typescript](./frontend-typescript/readme.md)
 - [FullStack - Typescript/Javascript](./fullstack-javascript/readme.md)
 - [DevOps coding task](https://github.com/tradeling/coding-task-devops)
 - [Data coding task](./data/readme.md)
