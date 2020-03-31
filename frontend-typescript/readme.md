@@ -5,34 +5,51 @@ This case study aims to assess how you approach a problem starting from the high
 
 ## The Task
 
-You are required to build a simple React.js application with **TypeScript** that has a search box where a user will be able to search for GitHub repositories by name and see the list of the results. The results will be fetched from the GitHub API.
+You are required to build a simple single page application built with
 
-You can find the GitHub API search docs below:
+* React.js
+* TypeScript
+* Redux and [redux-persist](https://github.com/rt2zz/redux-persist)
+* [React Router](https://github.com/ReactTraining/react-router)
+* Vanilla CSS, Sass, Styled Components or any other CSS-in-JS but no frameworks allowed.
 
-* [GitHub Search API Docs](https://developer.github.com/v3/search/#search-repositories)
-* [Sample Search Request](https://api.github.com/search/repositories?q=tetris+language:assembly&sort=stars&order=desc)
+That allows the users to search the **users** or **repositories** or **issues** on GitHub. The results will be fetched from the GitHub API.
+
+* [GitHub Search API Docs](https://developer.github.com/v3/search/)
 
 ## Requirements
 
-Build a single page React.js application with the following functionality
+There will be two input fields, on search field for the user to type the text and a dropdown where user can either pick "User" or "Repository" to define the entities that they want to search. When the user doesn't have any input or clears the input, the input fields should be shown in the middle of the page. The UI could roughly look like below:
 
-* Display a search bar where a user can type a search keyword
-* Display the results as a grid of 3 columns. For each repository display the repository user details returned from API and the repository name, author, stars and other statistics below it. A sample
- ![](https://i.ibb.co/S5fbcc7/image.png)
+![](./mockup-3.png)
 
-* On mobile screens (width <= 768px), the grid will be 2 columns
-  ![](https://i.ibb.co/Bfc8qYS/image.png)
+When the user starts typing into the input, make an API call to fetch the results and display them in the form of grid below it. The data should be cached in the store and persisted via redux-persist and no more API calls should be made if we already have the results for the search term.
 
-* You should start to fetch and display the results from the backend once the user types 3 characters or more in the search bar
-* If the user is typing, don't make any API calls until they stop typing for 300ms
-* Consider all the possible UI states: initial, loading, error,... and present them to the user clearly. No fancy UI required
-* There are no design requirements, but we expect you to use minimal CSS to structure the page and make it a little pleasant. Don’t use external CSS or UI frameworks like bootstrap, bulma, ant.
+Here are some of the items that you should take care of
+
+* Add debounce (feel free to import from lodash). Make the API calls only if the user has typed 3 or more characters.
+* If the user changes the "Entity type" value in the dropdown and user has 3 or more characters in the input already, it should refresh the results.
+* If the user clears the input or types less than three characters, clear the results and show the empty screen.
+
+The UI for the results could roughly look like below. The design for repository and user cards are up to you.
+
+![](./mockup-1.png)
+
+For each repository display the repository user details returned from API and the repository name, author, stars and other statistics below it. For the users, show the profile picture, name, location, any other data you have and link to their profile.
+
+On smaller screens (width <= 768px), the grid will be 2 columns and it could look like below:
+
+![](./mockup-2.png)
+
+Consider all the states: initial, loading, error,... and inform the user about it.
 
 ## Criteria
 
 Your work will be evaluated primarily on:
 
-* `README.md` file explaining your high level solution and any decisions you made and the reasons behind them
-* Tests are not needed but will be a big plus
-* We will assess the quality of your code. Use modern ES6+ syntax, async/await, elegant & readable code
+* Cleanliness of the code
+* Use modern ES6+ syntax, async/await, elegant & readable code
+* All the edgecases have been handled
 * Typescript definitions, types, interfaces.
+* Tests are not needed but will be a big plus.
+* `README.md` file explaining your high level solution and any decisions you made and the reasons behind them
