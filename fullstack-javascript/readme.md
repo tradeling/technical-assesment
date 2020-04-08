@@ -5,7 +5,7 @@ This case study aims to assess how you approach a problem starting from the high
 
 ## The Task
 
-You are required to build a simple single page application built with
+You are required to build a fullstack single page application built with
 
 * React.js
 * TypeScript
@@ -14,9 +14,6 @@ You are required to build a simple single page application built with
 * [React Router](https://github.com/ReactTraining/react-router)
 * Vanilla CSS, Sass, Styled Components or any other CSS-in-JS but no frameworks allowed.
 
-That allows the users to search the **users** or **repositories** or **issues** on GitHub. The results will be fetched from the GitHub API.
-
-* [GitHub Search API Docs](https://developer.github.com/v3/search/)
 
 
 ## Backend Requirements
@@ -24,8 +21,11 @@ That allows the users to search the **users** or **repositories** or **issues** 
 Write an "Search" Backend API endpoint which eventually collect the data from Github & stores it in REDIS.
 
 Create two API Endpoints:
-1.  Search Records
+1.  Search Records with filters **users** or **repositories** or **issues**. The results will be fetched from the GitHub API.
+    * [GitHub Search API Docs](https://developer.github.com/v3/search/)
 2.  Clear Backend Caching
+
+
 
 Here are some of the items that you should take care of
 
