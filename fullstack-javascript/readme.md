@@ -50,7 +50,7 @@ Create two API Endpoints:
     - Receives a POST request with search type(**users** or **repositories** or **issues**) & search text(mandatory).
     - The results will be fetched from the GitHub API & cache it for atleast 2 hours.
     * [GitHub Search API Docs](https://developer.github.com/v3/search/)
-2.  "/api/search/clear-cache" : Clear Backend Caching
+2.  "/api/clear-cache" : Clear Backend Caching
 
 Here are some of the items that you should take care of
 
