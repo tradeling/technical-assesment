@@ -1,4 +1,5 @@
 ## FullStack Developer Task
+
 > Build a GitHub repository search application
 
 This case study aims to assess how you approach a problem starting from the high level solution to the low level implementation details and code quality. You will not be penalized for asking questions, so don't hesitate to ask us if you need any clarification.
