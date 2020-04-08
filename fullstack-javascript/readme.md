@@ -20,9 +20,11 @@ You are required to build a fullstack single page application built with
 Write an "Search" Backend API endpoint which eventually collect the data from Github & stores it in REDIS.
 
 Create two API Endpoints:
-1.  Search Records with filters **users** or **repositories** or **issues**. The results will be fetched from the GitHub API.
+1.  "/api/search"
+    - Receives a POST request with search type(**users** or **repositories** or **issues**) & search text(mandatory).
+    - The results will be fetched from the GitHub API & cache it for atleast 2 hours.
     * [GitHub Search API Docs](https://developer.github.com/v3/search/)
-2.  Clear Backend Caching
+2.  "/api/search/clearcache" : Clear Backend Caching
 
 Here are some of the items that you should take care of
 
