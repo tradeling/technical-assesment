@@ -15,7 +15,6 @@ You are required to build a fullstack single page application built with
 * Vanilla CSS, Sass, Styled Components or any other CSS-in-JS but no frameworks allowed.
 
 
-
 ## Backend Requirements
 
 Write an "Search" Backend API endpoint which eventually collect the data from Github & stores it in REDIS.
@@ -24,8 +23,6 @@ Create two API Endpoints:
 1.  Search Records with filters **users** or **repositories** or **issues**. The results will be fetched from the GitHub API.
     * [GitHub Search API Docs](https://developer.github.com/v3/search/)
 2.  Clear Backend Caching
-
-
 
 Here are some of the items that you should take care of
 
@@ -68,5 +65,4 @@ Your work will be evaluated primarily on:
 * Use modern ES6+ syntax, async/await, elegant & readable code
 * All the edgecases have been handled
 * Typescript definitions, types, interfaces.
-* Tests are not needed but will be a big plus.
 * `README.md` file explaining your high level solution and any decisions you made and the reasons behind them
