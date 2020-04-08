@@ -15,24 +15,6 @@ You are required to build a fullstack single page application built with
 * Vanilla CSS, Sass, Styled Components or any other CSS-in-JS but no frameworks allowed.
 
 
-## Backend Requirements
-
-Write an "Search" Backend API endpoint which eventually collect the data from Github & stores it in REDIS.
-
-Create two API Endpoints:
-1.  "/api/search"
-    - Receives a POST request with search type(**users** or **repositories** or **issues**) & search text(mandatory).
-    - The results will be fetched from the GitHub API & cache it for atleast 2 hours.
-    * [GitHub Search API Docs](https://developer.github.com/v3/search/)
-2.  "/api/search/clearcache" : Clear Backend Caching
-
-Here are some of the items that you should take care of
-
-* Add Caching so that the same request is not called again.
-* Write Swagger documentation with clear description, request, response & example for the endpoints
-* Write API Flows for unit testing the API using any assertion library such as "SuperTest"
-
-
 ## Frontend Requirements
 
 There will be two input fields, on search field for the user to type the text and a dropdown where user can either pick "User" or "Repository" to define the entities that they want to search. When the user doesn't have any input or clears the input, the input fields should be shown in the middle of the page. The UI could roughly look like below:
@@ -58,6 +40,24 @@ On smaller screens (width <= 768px), the grid will be 2 columns and it could loo
 ![](./mockup-2.png)
 
 Consider all the states: initial, loading, error,... and inform the user about it.
+
+## Backend Requirements
+
+Write an "Search" Backend API endpoint which eventually collect the data from Github & stores it in REDIS.
+
+Create two API Endpoints:
+1.  "/api/search"
+    - Receives a POST request with search type(**users** or **repositories** or **issues**) & search text(mandatory).
+    - The results will be fetched from the GitHub API & cache it for atleast 2 hours.
+    * [GitHub Search API Docs](https://developer.github.com/v3/search/)
+2.  "/api/search/clear-cache" : Clear Backend Caching
+
+Here are some of the items that you should take care of
+
+* Add Caching so that the same request is not called again.
+* Write Swagger documentation with clear description, request, response & example for the endpoints
+* Optional Bonus: Write API Flows for unit testing the API using any assertion library such as "SuperTest"
+
 
 ## Criteria
 
