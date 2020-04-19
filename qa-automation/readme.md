@@ -19,17 +19,21 @@ Your task is to write some end-to-end tests with [Cypress](https://www.cypress.i
 ## Acceptance Criteria
 
 1. Write a first end-to-end test that
-   1. Starts on the [landing page](https://www.binance.com/en)
-   1. Click the link [view more market](https://www.binance.com/en/markets)
-   1. Clicks the ETH/BTC button leading to [Pair trading view](https://www.binance.com/en/trade/ETH_BTC)
-   1. Verifies that all important information is loaded, e.g. trading chart, limit, market, stop limit input boxes, etc. (leaving this purposefully open to see what you think makes sense to test)
-   
+   1. Starts on the [Tradeling home page](https://tradeling.com/)
+   1. On the nav bar click the category link Food & Beverage
+   1. Click on Meat & Poultry
+   1. Capture the total number of results from breadcrumbs
+   1. Verify that the total results equals the sum of product count on each page
+
 1. Write a second end-to-end test that
-   1. Starts on the [Pair trading view](https://www.binance.com/en/trade/ETH_BTC)
-   1. Enters some valid values into the Buy ETH form
-   1. Make sure the Total field has the correct value (Total = price \* Amount)
-   1. Verifies that you can't submit the form since you are not logged in
-   
+   1. Starts on the [Tradeling home page](https://tradeling.com/)
+   1. On the nav bar click on the category link Office & Stationery
+   1. Click on Office Supplies & Stationery
+   1. Select Writing Instrument on filter by product type
+   1. Select Ballpoint Pens on filter by product
+   1. Apply filter by price between 50 and 60
+   1. Verify that the total results are correct as per the filter applied
+
 1. Write a data last end-to-end (WebSockets) test that
    1. Starts on the [Pair trading view](https://www.binance.com/en/trade/ETH_BTC)
    1. Under the hood, the UI uses WebSockets to fetch tickers
