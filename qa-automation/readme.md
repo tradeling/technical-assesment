@@ -14,7 +14,7 @@ Your task is to write automated tests preferably with [Cypress](https://www.cypr
 
 ## Acceptance Criteria
 
-1. Write a first end-to-end test that
+1. Scenario 1:
    1. Starts on the [Binance market page](https://www.binance.com/en/markets)
    1. On the search box (coin name) type ETH
    1. Check if last price updates in every 5 second
@@ -22,14 +22,14 @@ Your task is to write automated tests preferably with [Cypress](https://www.cypr
    1. Mark ETH , BNB as favorites
    1. Verify if Pair's are displayed under Favorites link
 
-1. Write a second end-to-end test that
+1. Scenario 2:
    1. Select ETH on "ALTS Markets" filter
    1. Verify that pair column is sorted with all ETH values
    1. Select USSD on "FIAT Markets" filter
    1. Verify that  pair column is sorted with all USSD values
    1. And ALTS Markets filter default value is reset to "All"
 
-1. Write a third end-to-end test that
+1. Scenario 3:
    1. Verify on the top navigation bar "Spot" list has following values :
         Basic, Classic, Advance, OTC, P2P
    2. Make sure the "ETH/USDT" ticker price changes constantly
