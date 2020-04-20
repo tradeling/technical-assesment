@@ -42,7 +42,7 @@ Your task is to write some end-to-end tests with [Cypress](https://www.cypress.i
         - Office Supplies
 
 
- **Publish test report in html format using custom code or cypress reporter plugin**
+ **Publish test report in html format using custom code or cypress reporter plugin.**
 ## Bonus Round (not required, but nice-to-have)
 
 - Usage of code quality tools such as eslint, prettier, typescript
