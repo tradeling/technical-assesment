@@ -8,7 +8,7 @@ Your task is to write automated tests preferably with [Cypress](https://www.cypr
 
 ## The Process
 
-1. Start a new private github repository.
+1. Start a new private github repository with detailed "readme" document on how to execute the tests.
 1. Write end-to-end tests fulfilling the [Acceptance Criteria](#acceptance-criteria) below.
 1. Publish test execution report in html format.
 1. Prepare a test summary report and include the information about platform, browser, tools etc
