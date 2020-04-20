@@ -2,12 +2,9 @@
 
 ## The Goal
 
-Your task is to write some end-to-end tests with [Cypress](https://www.cypress.io) to demonstrate your test automation abilities.
+Your task is to write automated tests preferably with [Cypress](https://www.cypress.io), [NightWatch](https://nightwatchjs.org/) or [Puppeteer](https://pptr.dev/) to demonstrate your test automation abilities.
 
-## What you'll need
 
-1. The [Cypress Docs](https://docs.cypress.io)
-1. The platform: [binance trading platform](https://www.binance.com/en)
 
 ## The Process
 
