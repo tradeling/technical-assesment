@@ -41,12 +41,15 @@ Your task is to write some end-to-end tests with [Cypress](https://www.cypress.i
         - Food  & Beverages
         - Office Supplies
 
+
+
 ## Bonus Round (not required, but nice-to-have)
 
+- Publish test report in html format using customer code or cypress reporting plugin
 - Usage of code quality tools such as eslint, prettier, typescript
 - Integration of your tests into a CI pipeline
-- Prepare manual test cases for given scenarios
-- Brief Performance report on home page with Jmeter or any other tool
+- Manual test cases for given scenarios
+- Brief Performance report on home page using Jmeter or any similar tool
 - Security and Vulnerability assessment
 - Surprise us…
 
