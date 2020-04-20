@@ -34,18 +34,20 @@ Your task is to write some end-to-end tests with [Cypress](https://www.cypress.i
    1. Apply filter by price between 50 and 60
    1. Verify that the total results are correct as per the filter applied
 
-1. Write a data last end-to-end (WebSockets) test that
-   1. Starts on the [Pair trading view](https://www.binance.com/en/trade/ETH_BTC)
-   1. Under the hood, the UI uses WebSockets to fetch tickers
-   1. Verifies that the data is loaded in the tickers,
-   1. Verifies there is a consistent stream of data.
-   1. Verifies the time it takes the socket connection to connect is less than 1 second
+1. Write a third end-to-end test that
+   1. Starts on the [Tradeling home page](https://mytrade.link/en)
+   1. Verify that following category with sub category images are displaying on home screen
+        - Health and Wellbeing
+        - Food  & Beverages
+        - Office Supplies
 
 ## Bonus Round (not required, but nice-to-have)
 
 - Usage of code quality tools such as eslint, prettier, typescript
 - Integration of your tests into a CI pipeline
-- Screenshot diffing
+- Prepare manual test cases for given scenarios
+- Brief Performance report on home page with Jmeter or any other tool
+- Security and Vulnerability assessment
 - Surprise us…
 
 ## How we're evaluating the result
