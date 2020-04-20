@@ -19,27 +19,25 @@ Your task is to write some end-to-end tests with [Cypress](https://www.cypress.i
 ## Acceptance Criteria
 
 1. Write a first end-to-end test that
-   1. Starts on the [Tradeling home page](https://tradeling.com/)
-   1. On the nav bar click the category link Food & Beverage
-   1. Click on Meat & Poultry
-   1. Capture the total number of results from breadcrumbs
-   1. Verify that the total results equals the sum of product count on each page
+   1. Starts on the [Binance market page](https://www.binance.com/en/markets)
+   1. On the search box (coin name) type ETH
+   1. Check if last price updates in every 5 second
+   1. Clear the last price on search box
+   1. Mark ETH , BNB as favorites
+   1. Verify if Pair's are displayed under Favorites link
 
 1. Write a second end-to-end test that
-   1. Starts on the [Tradeling home page](https://tradeling.com/)
-   1. On the nav bar click on the category link Office & Stationery
-   1. Click on Office Supplies & Stationery
-   1. Select Writing Instrument on filter by product type
-   1. Select Ballpoint Pens on filter by product
-   1. Apply filter by price between 50 and 60
-   1. Verify that the total results are correct as per the filter applied
+   1. Select ETH on "ALTS Markets" filter
+   1. Verify that pair column is sorted with all ETH values
+   1. Select USSD on "FIAT Markets" filter
+   1. Verify that  pair column is sorted with all USSD values
+   1. And ALTS Markets filter default value is reset to "All"
 
 1. Write a third end-to-end test that
-   1. Starts on the [Tradeling home page](https://mytrade.link/en)
-   1. Verify that following category with sub category images are displaying on home screen
-        - Health and Wellbeing
-        - Food  & Beverages
-        - Office Supplies
+   1. Verify on the top navigation bar "Spot" list has following values :
+        Basic, Classic, Advance, OTC, P2P
+   2. Make sure the "ETH/USDT" ticker price changes constantly
+
 
 
  **Publish test report in html format using custom code or cypress reporter plugin.**
