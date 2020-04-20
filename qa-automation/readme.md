@@ -12,6 +12,7 @@ Your task is to write automated tests preferably with [Cypress](https://www.cypr
 1. Write end-to-end tests fulfilling the [Acceptance Criteria](#acceptance-criteria) below.
 1. Publish test execution report in html format.
 1. Prepare a test summary report and include the information about platform, browser, tools etc
+1. Include all tests related document in same github repository.
 
 ## Acceptance Criteria
 
