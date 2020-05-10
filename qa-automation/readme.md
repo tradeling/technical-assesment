@@ -5,7 +5,6 @@
 Your task is to write automated tests preferably with [Cypress](https://www.cypress.io), [NightWatch](https://nightwatchjs.org/) or [Puppeteer](https://pptr.dev/) to demonstrate your test automation abilities.
 
 
-
 ## The Process
 
 1. Start a new private github repository with detailed "readme" document on how to execute the tests.
@@ -14,29 +13,28 @@ Your task is to write automated tests preferably with [Cypress](https://www.cypr
 1. Prepare a test summary report and include the information about platform, browser, tools etc
 1. Include all tests related document in same github repository.
 
+
 ## Acceptance Criteria
 
-1. Scenario 1:
-   1. Starts on the [Binance market page](https://www.binance.com/en/markets)
-   1. On the search box (coin name) type ETH
-   1. Check if last price updates in every 5 second
-   1. Clear the last price on search box
-   1. Mark ETH , BNB as favorites
-   1. Verify if Pair's are displayed under Favorites link
+1. Scenario 1: [Check your gift card's balance is $0.00]
+   1. Starts on the [Amazon](https://www.amazon.com/)
+   2. Click on 'Start here' from Account and Lists
+   3. Create Account and login
+   4. Click on Your account
+   5. Click on Gift Cards
+   6. Check the balance of your gift card is $0.00
 
-1. Scenario 2:
-   1. Select ETH on "ALTS Markets" filter
-   1. Verify that pair column is sorted with all ETH values
-   1. Select USSD on "FIAT Markets" filter
-   1. Verify that  pair column is sorted with all USSD values
-   1. And ALTS Markets filter default value is reset to "All"
+1. Scenario 2: [Check the total displayed number of results for category Smart Home | Televisions]
+   1. Go to Categories list
+   2. Choose category 'Smart Home'
+   3. Chhose sub-category 'Televisions'
+   4. Check the total number of results match the total displayed products
 
-1. Scenario 3:
-   1. Verify on the top navigation bar "Spot" list has following values :
-        Basic, Classic, Advance, OTC, P2P
-   2. Make sure the "ETH/USDT" ticker price changes constantly
-
-
+1. Scenario 3: [Check the selected currency displayed for the products' price]
+   1. Go to Currency Settings
+   2. Change currency to 'AED'
+   3. Save changes
+   4. Check the selected currency displayed for the products' price
 
 
 ## Bonus Round (not required, but nice-to-have)
