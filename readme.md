@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://tradeling.com"><img src="https://i.ibb.co/ZzDxjFC/tl.png" alt="Tradeling" width="250"/></a>
+<a href="https://tradeling.com"><img src="https://c8n.tradeling.com/assets/svgs/tradeling-logo.svg" alt="Tradeling" width="250"/></a>
 </p>
 
 <h1 align="center">B2B E-Commerce Redefined 💥🔥🚀</h1>
