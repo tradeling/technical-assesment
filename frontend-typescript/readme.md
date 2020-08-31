@@ -53,3 +53,7 @@ Your work will be evaluated primarily on:
 * Typescript definitions, types, interfaces.
 * Tests are not needed but will be a big plus.
 * `README.md` file explaining your high level solution and any decisions you made and the reasons behind them
+
+## How to submit your work
+
+Create a public repo on Github and push your code on it. then share the link back with the team.

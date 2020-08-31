@@ -69,3 +69,7 @@ Your work will be evaluated primarily on:
 * All the edgecases have been handled
 * Typescript definitions, types, interfaces.
 * `README.md` file explaining your high level solution and any decisions you made and the reasons behind them
+
+## How to submit your work
+
+Create a public repo on Github and push your code on it. then share the link back with the team.

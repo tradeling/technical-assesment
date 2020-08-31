@@ -42,3 +42,7 @@ date of usage
 
 >  Focus on code quality
 > No need for access control think of it as an internal application
+
+## How to submit your work
+
+Create a public repo on Github and push your code on it. then share the link back with the team.

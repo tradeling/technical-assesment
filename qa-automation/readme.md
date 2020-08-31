@@ -54,3 +54,7 @@ Prioritized from most important to least important, here are our evaluation crit
 1. **Code Quality**: Is the code that you've written clean, well-structured and easy to understand?
 1. **Documentation**: Did you document how to run your tests well? Is your written communication clear and easy-to-understand?
 1. **The extra mile**: Everything you did on top of the acceptance criteria.
+
+## How to submit your work
+
+Create a public repo on Github and push your code on it. then share the link back with the team.

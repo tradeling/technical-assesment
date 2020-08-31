@@ -17,7 +17,7 @@ Use a static token and protect all the endpoints. If that static token is not pr
 An endpoints which downloads fresh data from [Indego GeoJSON station status API](https://www.rideindego.com/stations/json/) and stores it inside MongoDB.
 
 ```bash
-# this endpoint will be trigger every hour to fetch the data and insert it in the mongo database 
+# this endpoint will be trigger every hour to fetch the data and insert it in the mongo database
 POST http://localhost:3000/api/v1/indego-data-fetch-and-store-it-db
 ```
 
@@ -72,7 +72,7 @@ Write functional and API test using using [Jest](https://jestjs.io/).
 You will need to make your API available on a server that we can communicate with. You can make use of the following services:
 * [Heroku](https://heroku.com/)
 * [MongoDB Cloud](https://www.mongodb.com/cloud)
- 
+
 ## Criteria
 
 Your work will be evaluated primarily on:
@@ -88,9 +88,7 @@ Your work will be evaluated primarily on:
 
 ## How to submit your work
 
-Create a private project on Github and push your code on it. And give the access to following users:
-
-* [Mohamed Meabed](https://github.com/meabed)
+Create a public repo on Github and push your code on it. then share the link back with the team.
 
 ## Extra credit
 
