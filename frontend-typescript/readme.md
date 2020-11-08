@@ -13,7 +13,7 @@ You are required to build a simple single page application built with
 * [React Router](https://github.com/ReactTraining/react-router)
 * Vanilla CSS, Sass, Styled Components or any other CSS-in-JS but no frameworks allowed.
 
-That allows the users to search the **users** or **repositories** or **issues** on GitHub. The results will be fetched from the GitHub API.
+That allows the users to search the **users** or **repositories** on GitHub. The results will be fetched from the GitHub API.
 
 * [GitHub Search API Docs](https://developer.github.com/v3/search/)
 
