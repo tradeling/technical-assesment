@@ -1,34 +1,39 @@
-## Todo React Native
+## Simple Ecommerce App
 
-### Requirements
+### Stack
+- [ ] Use @react-navigation
+- [ ] Use @reduxjs/toolkit
+- [ ] Use Expo
+- [ ] Use typescript
+- [ ] Use https://fakestoreapi.com/
 
-- [Design](react-native-assessment.sketch.pdf)
-- Use @expo/react-native-action-sheet
-- Use @react-navigation
-- Use @reduxjs/toolkit
-- Use Expo
-- Use react-hook-form
-- Use redux-persist
-- Use typescript
+### Foundation
+- [ ] First time app open, ask user to allow notification
+- [ ] Build 2 bottom tabs - home & profile
+- [ ] Build api loader
+- [ ] Build api error toast
+- [ ] Build api empty response screen
 
-#### Login
+### Home
+- [ ] Build product listing screen
+- [ ] Build pull to refresh
+- [ ] Build infinite scrolling with loading more products
 
-- If no name exists, a new account will be created
-- If name exists, show all todos created by this account
+### Product detail
+- [ ] Build product detail screen
+- [ ] Open a deeplink from outside the app will open the app and redirect user to product detail screen
 
-#### Todo
+### Profile
+- [ ] There are 4 buttons in profile screen - toggle rtl & enable notification & enable location & addresses
 
-- Click on todo will show action sheet, which has 4 actions - Complete, Edit, Delete and Cancel
-- Reference design for completed todo UI
-- Edit todo will navigate to a new screen which has the similar UI as add todo
-- In Edit todo screen 1. add back button in the header 2. remove title `Add` 3. replace button `Add` with `Save` 4. do not show bottom tabs
-- Edit todo has data prefilled
-- Delete todo should ask user to confirm with an alert
+### Toggle rtl
+- [ ] Toggle rtl button will change the whole app layout without re-start the app
 
-#### Add
+### Enable notification & location
+- [ ] Enable notification and location button will lead user to the permission setting screen in your phone
 
-- Description, due and color are all required
-- When click on `Add`, if any field is missing show a toast mentioning the missing fields, and the toast should disappear in 2 seconds
-- Due must be a string following format `YYYY-MM-DD`, otherwise a toast with error message will show, and the toast should disappear in 2 seconds
-- Selected color should have full opacity, others shouldn't
-- Edit todo should also follow the above requirements
+### Addresses
+- [ ] Addresses button will lead to address listing screen with add address button
+- [ ] Add address button will lead to map view screen, and ask user to allow location fist time
+- [ ] In map view screen, default address will be user's current location, and user can change location through a pin which is in the center of the screen
+- [ ] After user add address in map view, the address will be reflected in address listing screen
