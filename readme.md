@@ -44,9 +44,11 @@ Bonus point (those items are optional):
 
 Coding Challenges
 ----------------
+- [Backend - Golang](./backend-golang/readme.md)
 - [Backend - Typescript](./backend-typescript/readme.md)
+- [Data](./data/readme.md)
+- [DevOps](https://github.com/tradeling/coding-task-devops)
 - [Frontend - Typescript](./frontend-typescript/readme.md)
-- [FullStack - Typescript/Javascript](./fullstack-javascript/readme.md)
-- [DevOps coding task](https://github.com/tradeling/coding-task-devops)
-- [Data coding task](./data/readme.md)
+- [FullStack - Typescript](./fullstack-typescript/readme.md)
+- [Mobile](./mobile/readme.md)
 - [QA Automation](./qa-automation/readme.md)
