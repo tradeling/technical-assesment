@@ -13,13 +13,13 @@ You are required to build a simple single page application built with
 * [React Router](https://github.com/ReactTraining/react-router)
 * Vanilla CSS, Sass, Styled Components or any other CSS-in-JS but no frameworks allowed.
 
-That allows the users to search the **users** or **repositories** on GitHub. The results will be fetched from the GitHub API.
+That allows the users to search the **users** or **repositories** or **issues** on GitHub. The results will be fetched from the GitHub API.
 
 * [GitHub Search API Docs](https://developer.github.com/v3/search/)
 
 ## Requirements
 
-There will be two input fields, on search field for the user to type the text and a dropdown where user can either pick "Users" or "Repositories" to define the entities that they want to search. When the user doesn't have any input or clears the input, the input fields should be shown in the middle of the page. The UI could roughly look like below:
+There will be two input fields, on search field for the user to type the text and a dropdown where user can either pick "User" or "Repository" to define the entities that they want to search. When the user doesn't have any input or clears the input, the input fields should be shown in the middle of the page. The UI could roughly look like below:
 
 ![](./mockup-3.png)
 
@@ -53,7 +53,3 @@ Your work will be evaluated primarily on:
 * Typescript definitions, types, interfaces.
 * Tests are not needed but will be a big plus.
 * `README.md` file explaining your high level solution and any decisions you made and the reasons behind them
-
-## How to submit your work
-
-Create a public repo on Github and push your code on it. then share the link back with the team.
