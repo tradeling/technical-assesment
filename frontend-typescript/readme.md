@@ -30,6 +30,7 @@ Here are some of the items that you should take care of
 * Add debounce (feel free to import from lodash). Make the API calls only if the user has typed 3 or more characters.
 * If the user changes the "Entity type" value in the dropdown and user has 3 or more characters in the input already, it should refresh the results.
 * If the user clears the input or types less than three characters, clear the results and show the empty screen.
+* The user can scroll down to see more results ( Infinite scrolling ) until the results are done.
 
 The UI for the results could roughly look like below. The design for repository and user cards are up to you.
 
