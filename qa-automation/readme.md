@@ -48,7 +48,7 @@ Your task is to write automated tests preferably with [Cypress](https://www.cypr
 - Security and Vulnerability assessment
 - Surprise us…
 
-## How we're evaluating the result
+## How we're evaluating the results
 
 Prioritized from most important to least important, here are our evaluation criteria:
 
