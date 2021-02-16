@@ -7,7 +7,7 @@ Your task is to write automated tests preferably with [Cypress](https://www.cypr
 
 ## The Process
 
-1. Start a new private github repository with detailed "readme" document on how to execute the tests.
+1. Start a new github repository with detailed "README" document on how to execute the tests.
 1. Write end-to-end tests fulfilling the [Acceptance Criteria](#acceptance-criteria) below.
 1. Publish test execution report in html format.
 1. Prepare a test summary report and include the information about platform, browser, tools etc
@@ -16,23 +16,25 @@ Your task is to write automated tests preferably with [Cypress](https://www.cypr
 
 ## Acceptance Criteria
 
-1. Scenario 1: [Check your gift card's balance is $0.00]
+- Scenario 1: [Check your gift card's balance is $0.00]
    1. Starts on the [Amazon](https://www.amazon.com/)
-   2. Click on 'Start here' from Account and Lists
-   3. Create Account and login
-   4. Click on Your account
-   5. Click on Gift Cards
-   6. Check the balance of your gift card is $0.00
+   2. Login with valid credentials
+   3. Click on Your account
+   4. Click on Gift Cards
+   5. Check the balance of your gift card is $0.00
 
-1. Scenario 2: [Check the total displayed number of results for category Smart Home | Televisions]
+
+- Scenario 2: [Check the total displayed number of results for category Smart Home | Televisions]
    1. Go to Categories list
    2. Choose category 'Smart Home'
-   3. Chhose sub-category 'Televisions'
-   4. Check the total number of results match the total displayed products
+   3. Choose sub-category category 'Home Entertainment'
+   4. Choose sub-category 'Televisions'
+   5. Check the total number of results match the total displayed products
 
-1. Scenario 3: [Check the selected currency displayed for the products' price]
+
+- Scenario 3: [Check the selected currency displayed for the products' price]
    1. Go to Currency Settings
-   2. Change currency to 'AED'
+   2. Change currency from 'USD' to 'AED'
    3. Save changes
    4. Check the selected currency displayed for the products' price
 
@@ -41,12 +43,12 @@ Your task is to write automated tests preferably with [Cypress](https://www.cypr
 
 - Usage of code quality tools such as eslint, prettier, typescript
 - Integration of your tests into a CI pipeline
-- Manual test cases for given scenarios
+- Manual test cases to cover the given scenarios
 - Brief Performance report on home page using Jmeter or any similar tool
 - Security and Vulnerability assessment
 - Surprise us…
 
-## How we're evaluating the result
+## How we're evaluating the results
 
 Prioritized from most important to least important, here are our evaluation criteria:
 
