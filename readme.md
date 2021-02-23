@@ -51,4 +51,5 @@ Coding Challenges
 - [Frontend - Typescript](./frontend-typescript/readme.md)
 - [FullStack - Typescript](./fullstack-typescript/readme.md)
 - [Mobile](./mobile/readme.md)
-- [QA Automation](./qa-automation/readme.md)
+- [Web QA Automation](./web-app-automation/readme.md)
+- [Mobile QA Automation](./mobile-app-automation/readme.md)

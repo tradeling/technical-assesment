@@ -1,8 +1,8 @@
-# Coding task for QA Automation Engineer @tradeling
+# Coding task for Web QA Automation Engineer @tradeling
 
 ## The Goal
 
-Your task is to write automated tests preferably with [Cypress](https://www.cypress.io), [NightWatch](https://nightwatchjs.org/) or [Puppeteer](https://pptr.dev/) to demonstrate your test automation abilities.
+Your task is to write automated tests preferably with [Cypress](https://www.cypress.io), [NightWatch](https://nightwatchjs.org/) or [Playwright](https://playwright.dev/) to demonstrate your test automation abilities.
 
 
 ## The Process
