@@ -21,37 +21,39 @@ Your task is to write automated tests preferably with [Appium](https://appium.io
 ## Acceptance Criteria
 
 - Scenario 1: [Check Add a new Payment to your profile]
-   1. Starts on the [Amazon](https://www.amazon.com/)
+   1. Open Amazon app with region United State
    2. Login with valid credentials
    3. Tap on Your account
-   4. Tap on the Payment option
+   4. From Payments section, select Your Payments
    5. Tap on Wallet and add a credit or debit card as the payment method
+   6. Assert on added card with correct type [Visa/Mastercard]
 
 
 - Scenario 2: [Check your gift card's balance is $0.00]
    1. Tap on Your account
-   2. Tap on Gift Cards
+   2. From Payments section, select Manage gift card balance
    3. Check the balance of your gift card is $0.00
 
 
 - Scenario 3: [Check the total displayed number of results for category Smart Home | Televisions]
-   1. Go to Categories list
-   2. Choose category 'Smart Home'
-   3. Choose sub-category category 'Home Entertainment'
-   4. Choose sub-category 'Televisions'
-   5. Check the total number of results match the total displayed products
+   1. Click on Shop by Department from burger menu
+   2. Choose category ‘Electronics’
+   3. Choose sub-category category ’TV & VIDEO’
+   4. Filter with ’Smart TV’ and click show results
+   5. Check the total number of results match the total displayed in filter
 
 - Scenario 4: [Check Add a new Address to your profile]
     1. Tap on Your account
-    2. Tap on Manage address book
+    2. From Account settings, select Your Address
     3. Add new address
-    4. Verify if the address is added
+    4. Assert on added address under personal Addresses
 
 - Scenario 5: [Check the selected currency displayed for the products' price]
     1. Go to Currency Settings
-    2. Change currency from 'USD' to 'AED'
-    3. Save changes
-    4. Check the selected currency displayed for the products' price
+    2. Select Country & Language
+    3. Change currency from 'USD' to 'AED'
+    4. Save changes
+    5. Assert on selected currency displayed for Deals and Promotions products
 
 - Scenario 6: [Check Product Detail Page image swipe, Payments Option, Pricing, Stock, Add to Cart ]
     1. Tap on the Search bar and search for "Apple"
