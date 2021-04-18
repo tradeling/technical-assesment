@@ -28,8 +28,8 @@ Your task is to write automated tests preferably with [Appium](https://appium.io
    4. Filter with ’Smart TV’ and click show results
    5. Check the total number of results match the total displayed in filter
 
-- Scenario 2: [Check filter by department in Deals and Promotions]
-    1. Click on Today's Deals
+- Scenario 2: [Check filter by department in Deals and Promotions page]
+    1. Tab on Today's Deals
     2. From Departments filter, Show see more
     3. Select Software department
     4. Assert on choosing the correct selected department
