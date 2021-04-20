@@ -20,42 +20,28 @@ Your task is to write automated tests preferably with [Appium](https://appium.io
 
 ## Acceptance Criteria
 
-- Scenario 1: [Check Add a new Payment to your profile]
-   1. Open Amazon app with region United State
-   2. Login with valid credentials
-   3. Tap on Your account
-   4. From Payments section, select Your Payments
-   5. Tap on Wallet and add a credit or debit card as the payment method
-   6. Assert on added card with correct type [Visa/Mastercard]
 
-
-- Scenario 2: [Check your gift card's balance is $0.00]
-   1. Tap on Your account
-   2. From Payments section, select Manage gift card balance
-   3. Check the balance of your gift card is $0.00
-
-
-- Scenario 3: [Check the total displayed number of results for category Smart Home | Televisions]
+- Scenario 1: [Check the total displayed number of results for category Smart Home | Televisions]
    1. Click on Shop by Department from burger menu
    2. Choose category ‘Electronics’
    3. Choose sub-category category ’TV & VIDEO’
    4. Filter with ’Smart TV’ and click show results
    5. Check the total number of results match the total displayed in filter
 
-- Scenario 4: [Check Add a new Address to your profile]
-    1. Tap on Your account
-    2. From Account settings, select Your Address
-    3. Add new address
-    4. Assert on added address under personal Addresses
+- Scenario 2: [Check filter by department in Deals and Promotions page]
+    1. Tab on Today's Deals
+    2. From Departments filter, Show see more
+    3. Select Software department
+    4. Assert on choosing the correct selected department
 
-- Scenario 5: [Check the selected currency displayed for the products' price]
+- Scenario 3: [Check the selected currency displayed for the products' price]
     1. Go to Currency Settings
     2. Select Country & Language
     3. Change currency from 'USD' to 'AED'
     4. Save changes
     5. Assert on selected currency displayed for Deals and Promotions products
 
-- Scenario 6: [Check Product Detail Page image swipe, Payments Option, Pricing, Stock, Add to Cart ]
+- Scenario 4: [Check Product Detail Page image swipe, Payments Option, Pricing, Stock, Add to Cart ]
     1. Tap on the Search bar and search for "Apple"
     2. Tap the picture of the product and swipe Left to Right
     3. The price of the product is displayed

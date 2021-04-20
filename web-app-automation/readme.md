@@ -16,20 +16,22 @@ Your task is to write automated tests preferably with [Cypress](https://www.cypr
 
 ## Acceptance Criteria
 
-- Scenario 1: [Check your gift card's balance is $0.00]
+
+- Scenario 1: [Check the total displayed number of results for category Smart Home | Televisions]
+
    1. Starts on the [Amazon](https://www.amazon.com/)
-   2. Login with valid credentials
-   3. Click on Your account
-   4. Click on Gift Cards
-   5. Check the balance of your gift card is $0.00
+   2. Go to Categories list
+   3. Choose category 'Smart Home'
+   4. Choose sub-category category 'Home Entertainment'
+   5. Choose sub-category 'Televisions'
+   6. Check the total number of results match the total displayed products
 
 
-- Scenario 2: [Check the total displayed number of results for category Smart Home | Televisions]
-   1. Go to Categories list
-   2. Choose category 'Smart Home'
-   3. Choose sub-category category 'Home Entertainment'
-   4. Choose sub-category 'Televisions'
-   5. Check the total number of results match the total displayed products
+- Scenario 2: [Check filter by department in Deals and Promotions page]
+    1. Click on Today's Deals
+    2. From Departments filter, Show see more
+    3. Select Software department
+    4. Assert on choosing the correct selected department
 
 
 - Scenario 3: [Check the selected currency displayed for the products' price]
@@ -37,6 +39,13 @@ Your task is to write automated tests preferably with [Cypress](https://www.cypr
    2. Change currency from 'USD' to 'AED'
    3. Save changes
    4. Check the selected currency displayed for the products' price
+
+
+- Scenario 4: [Check Product Details Page]
+    1. From Search DDL, chose "Electronics" and Search for "Apple"
+    2. Click on any product displayed
+    3. Verify In/Out of stock, price, rating, and shipping details
+    4. Click and verify add to cart feature
 
 
 ## Bonus Round (not required, but nice-to-have)
