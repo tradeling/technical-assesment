@@ -53,6 +53,7 @@ Your task is to write automated tests preferably with [Cypress](https://www.cypr
 - Usage of code quality tools such as eslint, prettier, typescript
 - Integration of your tests into a CI pipeline
 - Manual test cases to cover the given scenarios
+- Report any found bugs with associated screenshots
 - Brief Performance report on home page using Jmeter or any similar tool
 - Security and Vulnerability assessment
 - Surprise us…
