@@ -22,19 +22,23 @@ Your task is to write automated tests preferably with [Appium](https://appium.io
 
 
 - Scenario 1: [Check the total displayed number of results for category Smart Home | Televisions]
-   1. Click on Shop by Department from burger menu
-   2. Choose category ‘Electronics’
-   3. Choose sub-category category ’TV & VIDEO’
-   4. Filter with ’Smart TV’ and click show results
-   5. Check the total number of results match the total displayed in filter
+
+   1. Open app on [Amazon.com](https://www.amazon.com/) store
+   2. Click on Shop by Department from burger menu
+   3. Choose category ‘Electronics’
+   4. Choose sub-category category ’TV & VIDEO’
+   5. Filter with ’Smart TV’ and click show results
+   6. Check the total number of results match the total displayed in filter
 
 - Scenario 2: [Check filter by department in Deals and Promotions page]
+
     1. Tab on Today's Deals
     2. From Departments filter, Show see more
     3. Select Software department
     4. Assert on choosing the correct selected department
 
 - Scenario 3: [Check the selected currency displayed for the products' price]
+
     1. Go to Currency Settings
     2. Select Country & Language
     3. Change currency from 'USD' to 'AED'
@@ -42,6 +46,7 @@ Your task is to write automated tests preferably with [Appium](https://appium.io
     5. Assert on selected currency displayed for Deals and Promotions products
 
 - Scenario 4: [Check Product Detail Page image swipe, Payments Option, Pricing, Stock, Add to Cart ]
+
     1. Tap on the Search bar and search for "Apple"
     2. Tap the picture of the product and swipe Left to Right
     3. The price of the product is displayed
@@ -53,6 +58,7 @@ Your task is to write automated tests preferably with [Appium](https://appium.io
 
 - Integration of your tests into a CI pipeline
 - Manual test cases to cover the given scenarios
+- Report any found bugs with associated screenshots
 - BDD integration with any BDD framework (Cucumber, Serenity etc)
 - Surprise us…
 
